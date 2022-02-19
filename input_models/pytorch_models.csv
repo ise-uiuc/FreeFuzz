@@ -1,0 +1,23 @@
+Link,# models
+https://github.com/weiaicunzai/pytorch-cifar100,30
+https://github.com/pytorch/examples/tree/master/super_resolution,1
+https://github.com/yiyang7/Super_Resolution_with_CNNs_and_GANs,4
+https://github.com/JaidedAI/EasyOCR,2
+https://github.com/lucidrains/stylegan2-pytorch,1
+https://github.com/lucidrains/stylegan2-pytorch,1
+https://github.com/pytorch/examples/tree/master/fast_neural_style,1
+https://github.com/wvangansbeke/LaneDetection_End2End,1
+https://github.com/maudzung/RTM3D,2
+https://github.com/cgraber/cvpr_dNRI,1
+https://github.com/vincent-leguen/DILATE,1
+https://github.com/lonePatient/Bert-Multi-Label-Text-Classification,1
+https://huggingface.co/models,4
+https://github.com/huggingface/transformers,11
+https://github.com/thu-ml/tianshou/tree/master/examples/atari,10
+https://github.com/znxlwm/pytorch-generative-model-collections,10
+https://github.com/DSE-MSU/DeepRobust/tree/master/deeprobust/graph,11
+https://github.com/JavierAntoran/Bayesian-Neural-Networks,7
+https://github.com/Mariewelt/OpenChem,1
+https://github.com/Megvii-Nanjing/ML-GCN,1
+https://github.com/lehaifeng/T-GCN,1
+total,102
