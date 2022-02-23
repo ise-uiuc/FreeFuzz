@@ -4,7 +4,7 @@ from classes.argument import *
 from classes.api import *
 from os.path import join
 import os
-from constant.keys import *
+from constants.keys import *
 
 class TorchLibrary(Library):
     def __init__(self, output_dir, diff_bound=1e-5, time_bound=10, time_thresold=1e-3) -> None:

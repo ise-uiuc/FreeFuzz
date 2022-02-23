@@ -1,7 +1,7 @@
 from numpy.random import choice, randint
 from enum import IntEnum
 from utils.probability import *
-from constant.enum import OracleType
+from constants.enum import OracleType
 
 class ArgType(IntEnum):
     INT = 1

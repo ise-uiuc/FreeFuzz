@@ -61,5 +61,9 @@ if __name__ == "__main__":
             else:
                 if res.returncode != 0:
                     dump_data(f"{api_name}\n", join(tf_output_dir, "runcrash.txt"), "a")
-    else:
-        print(f"WE DO NOT SUPPORT SUCH DL LIBRARY: {args.lib}!")
+    
+    not_test = []
+    for l in libs:
+        if l not in ["tf", "torch"]: not_test.append(l)
+    if len(not_test):
+        print(f"WE DO NOT SUPPORT SUCH DL LIBRARY: {not_test}!")

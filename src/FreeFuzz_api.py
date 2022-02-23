@@ -1,5 +1,5 @@
 import sys
-from constant.enum import OracleType
+from constants.enum import OracleType
 import configparser
 from os.path import join
 

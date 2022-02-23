@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from numpy.random import choice, randint
 
-from constant.keys import *
+from constants.keys import *
 from classes.argument import ArgType, Argument
 from classes.api import API
 from termcolor import colored

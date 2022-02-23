@@ -9,8 +9,8 @@ from classes.argument import Argument, ArgType
 from classes.tf_api import TFAPI, TFArgument
 from classes.library import Library
 from classes.database import TFDatabase
-from constant.enum import OracleType
-from constant.keys import ERR_CPU_KEY, ERR_GPU_KEY, ERR_HIGH_KEY, ERR_LOW_KEY, RES_CPU_KEY, RES_GPU_KEY, TIME_HIGH_KEY, TIME_LOW_KEY
+from constants.enum import OracleType
+from constants.keys import ERR_CPU_KEY, ERR_GPU_KEY, ERR_HIGH_KEY, ERR_LOW_KEY, RES_CPU_KEY, RES_GPU_KEY, TIME_HIGH_KEY, TIME_LOW_KEY
 
 class TFLibrary(Library):
     def __init__(self, output_dir, diff_bound=1e-5, time_bound=10, time_thresold=1e-3) -> None:
