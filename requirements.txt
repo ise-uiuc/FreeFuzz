@@ -4,4 +4,3 @@ pymongo
 numpy
 configparser
 textdistance
-constant
