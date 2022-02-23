@@ -32,12 +32,12 @@ if __name__ == "__main__":
         from classes.database import TorchDatabase
         TorchDatabase.database_config(host, port, mongo_cfg["torch_database"])
 
-        for api_name in TorchDatabase.get_api_list()[:5]:
+        for api_name in TorchDatabase.get_api_list():
             print(api_name)
             if need_skip_torch(api_name):
                 continue
             try:
-                res = subprocess.run(["python", "FreeFuzz_api.py", config_name, "torch", api_name], shell=False, timeout=100)
+                res = subprocess.run(["python3", "FreeFuzz_api.py", config_name, "torch", api_name], shell=False, timeout=100)
             except subprocess.TimeoutExpired:
                 dump_data(f"{api_name}\n", join(torch_output_dir, "timeout.txt"), "a")
             except Exception as e:
@@ -50,10 +50,10 @@ if __name__ == "__main__":
         from classes.database import TFDatabase
         TFDatabase.database_config(host, port, mongo_cfg["tf_database"])
 
-        for api_name in TFDatabase.get_api_list()[:5]:
+        for api_name in TFDatabase.get_api_list():
             print(api_name)
             try:
-                res = subprocess.run(["python", "FreeFuzz_api.py", config_name, "tf", api_name], shell=False, timeout=100)
+                res = subprocess.run(["python3", "FreeFuzz_api.py", config_name, "tf", api_name], shell=False, timeout=100)
             except subprocess.TimeoutExpired:
                 dump_data(f"{api_name}\n", join(tf_output_dir, "timeout.txt"), "a")
             except Exception as e:
