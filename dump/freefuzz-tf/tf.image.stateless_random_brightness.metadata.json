@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"471b04b2b5904575bf7708bb97d4bf3b","collectionName":"tf.image.stateless_random_brightness","type":"collection"}

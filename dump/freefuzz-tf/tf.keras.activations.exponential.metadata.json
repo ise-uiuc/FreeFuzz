@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"64c0638750344155a0ad0fa63564e6ea","collectionName":"tf.keras.activations.exponential","type":"collection"}

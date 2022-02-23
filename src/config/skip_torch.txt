@@ -1,0 +1,9 @@
+torch.nn.AdaptiveAvgPool2d
+torch.nn.AdaptiveAvgPool3d
+torch.nn.functional.adaptive_avg_pool2d
+torch.nn.functional.adaptive_avg_pool3d
+torch.save
+torch.lu_solve
+torch.combinations
+torch.nn.RReLU
+torch.nn.functional.rrelu

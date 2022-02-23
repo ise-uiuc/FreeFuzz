@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"40ac901f67f24ef1b4689ae44125bc37","collectionName":"tf.keras.layers.Softmax","type":"collection"}

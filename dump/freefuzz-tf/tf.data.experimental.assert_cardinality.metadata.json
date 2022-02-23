@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2289027d8f5a453489bb0166b3dfd611","collectionName":"tf.data.experimental.assert_cardinality","type":"collection"}

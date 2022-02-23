@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"33b3875c4dd446fda0529a218e10dc76","collectionName":"torch.nn.ConstantPad3d","type":"collection"}

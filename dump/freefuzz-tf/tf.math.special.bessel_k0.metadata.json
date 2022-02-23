@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"dc9ccb6fc89442afb537b8228faa9e44","collectionName":"tf.math.special.bessel_k0","type":"collection"}

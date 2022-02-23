@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"80ec502042b04c9ca03a53a9317244ee","collectionName":"tf.keras.layers.MaxPool2D","type":"collection"}

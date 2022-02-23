@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"cbfd1e93bca74a69be2eb9b4a12f9be0","collectionName":"tf.keras.losses.SquaredHinge","type":"collection"}

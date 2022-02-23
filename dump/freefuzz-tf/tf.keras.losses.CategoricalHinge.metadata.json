@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3146400162524b43ad1629e3e1f376c6","collectionName":"tf.keras.losses.CategoricalHinge","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"6d372348a7794e12a7fbab96469c2d8b","collectionName":"tf.keras.applications.VGG16","type":"collection"}

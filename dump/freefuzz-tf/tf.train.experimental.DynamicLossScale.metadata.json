@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0915de193b684f3f987a884a536b777c","collectionName":"tf.train.experimental.DynamicLossScale","type":"collection"}

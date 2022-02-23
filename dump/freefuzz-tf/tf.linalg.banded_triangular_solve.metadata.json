@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e17970fabe664f47a1898c1b03cb5012","collectionName":"tf.linalg.banded_triangular_solve","type":"collection"}

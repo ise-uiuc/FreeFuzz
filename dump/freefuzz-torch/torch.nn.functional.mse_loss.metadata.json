@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"184a6e6f8f3d4ff88551687158c95803","collectionName":"torch.nn.functional.mse_loss","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"fe06d1f2acc14b2ea1f2a4ce4b76f442","collectionName":"torch.nn.functional.interpolate","type":"collection"}

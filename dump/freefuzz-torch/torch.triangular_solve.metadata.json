@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2ce3234a23ee43a8ac366d5b0bbe0766","collectionName":"torch.triangular_solve","type":"collection"}

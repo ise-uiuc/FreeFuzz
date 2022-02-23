@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"966c5de0f81a4c8d94e6943d9d35d34c","collectionName":"torch.triu_indices","type":"collection"}

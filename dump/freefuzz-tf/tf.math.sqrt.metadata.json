@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8bf822a10ad640b4a2b7fdb10f5ba2da","collectionName":"tf.math.sqrt","type":"collection"}

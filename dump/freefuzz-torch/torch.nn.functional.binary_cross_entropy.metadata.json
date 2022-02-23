@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"cb42941edc45477584dc0246fd8a2913","collectionName":"torch.nn.functional.binary_cross_entropy","type":"collection"}

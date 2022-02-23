@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d947c49cec4c4caea1cd055ed7cfefd1","collectionName":"tf.keras.layers.UpSampling2D","type":"collection"}

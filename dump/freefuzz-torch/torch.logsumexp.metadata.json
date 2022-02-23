@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0d4e07848a3847aaad4b582374c25ab9","collectionName":"torch.logsumexp","type":"collection"}

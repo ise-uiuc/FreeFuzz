@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"86783664627c4840968766ef380b49f5","collectionName":"torch.nn.functional.pairwise_distance","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5f43b26849704b19912335f5de824ab2","collectionName":"tf.keras.activations.swish","type":"collection"}

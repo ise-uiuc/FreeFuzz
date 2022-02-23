@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5bc1e6dc9e2e4811a032f6db22b32fc6","collectionName":"tf.keras.mixed_precision.set_global_policy","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"68b493ea99454d458b4b939e4aac1ad9","collectionName":"tf.nn.batch_normalization","type":"collection"}

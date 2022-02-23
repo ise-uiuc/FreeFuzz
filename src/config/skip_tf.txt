@@ -1,0 +1,5 @@
+tf.math.bincount
+tf.eye
+tf.image.extract_glimpse
+tf.keras.layers.MaxPool2D
+tf.convert_to_tensor

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"62db01f3da8e43a5bf8c3f6bafae5624","collectionName":"tf.losses.kullback_leibler_divergence","type":"collection"}

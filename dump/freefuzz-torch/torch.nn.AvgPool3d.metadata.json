@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7a15b3a6657a4679ae03b9f66b403ac4","collectionName":"torch.nn.AvgPool3d","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d9788f9c947b431ba927ac031d734444","collectionName":"tf.metrics.MeanSquaredLogarithmicError","type":"collection"}

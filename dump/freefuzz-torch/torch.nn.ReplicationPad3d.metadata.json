@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"6bd49794d338476ba7368ac46e998388","collectionName":"torch.nn.ReplicationPad3d","type":"collection"}

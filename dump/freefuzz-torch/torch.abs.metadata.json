@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"bf258d37163a43d29be5b50d8b52d3e4","collectionName":"torch.abs","type":"collection"}
