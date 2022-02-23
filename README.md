@@ -13,7 +13,7 @@ This is the FreeFuzz's implementation for testing PyTorch and TensorFlow.
 ### 1. Requirements
 
 1. Our testing framework leverages [MongoDB](https://www.mongodb.com/) so you should [install and run MongoDB](https://docs.mongodb.com/manual/installation/) first.
-	- Run the command `ulimit -n 64000` to addjust the limit that the system resources a process may use. You can see this [document](https://docs.mongodb.com/manual/reference/ulimit/) for more details.
+	- Run the command `ulimit -n 64000` to adjust the limit that the system resources a process may use. You can see this [document](https://docs.mongodb.com/manual/reference/ulimit/) for more details.
 2. You should check our dependent python libraries in `requirements.txt` and run `pip install -r requirements.txt` to install them
 3. Python version >= 3.8.0 (It must support f-string.)
 
