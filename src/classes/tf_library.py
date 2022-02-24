@@ -69,6 +69,7 @@ class TFLibrary(Library):
             self.write_to_dir(write_dir, api.api, write_code)
         elif oracle == OracleType.PRECISION:
             code = "import tensorflow as tf\n"
+            code += "import time\n"
             code += self.generate_code(api, oracle)
 
             write_code = "results = dict()\n" + code + "\nprint(results)\n"
