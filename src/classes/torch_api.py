@@ -11,7 +11,7 @@ class TorchArgument(Argument):
     _dtypes = [
         torch.int8, torch.int16, torch.int32, torch.int64, torch.uint8,
         torch.float16, torch.float32, torch.float64, torch.bfloat16,
-        torch.complex32, torch.complex64, torch.complex128, torch.bool
+        torch.complex64, torch.complex128, torch.bool
     ]
     _memory_format = [
         torch.contiguous_format, torch.channels_last, torch.preserve_format
