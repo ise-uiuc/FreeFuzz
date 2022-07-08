@@ -4,6 +4,7 @@ import re
 import numpy as np
 import configparser
 import sys
+from os.path import join
 
 signature_collection = "signature"
 similarity_collection = "similarity"
@@ -174,7 +175,7 @@ if __name__ == "__main__":
     """
     config_name = f"demo_{target}.conf"
     freefuzz_cfg = configparser.ConfigParser()
-    freefuzz_cfg.read(f"./config/{config_name}")
+    freefuzz_cfg.read(join("config", config_name))
 
     # database configuration
     mongo_cfg = freefuzz_cfg["mongodb"]
@@ -183,5 +184,6 @@ if __name__ == "__main__":
 
     DB = pymongo.MongoClient(host, port)[mongo_cfg[f"{target}_database"]]
 
+    loadAPIs(join("..", "data", f"{target}_APIdef.txt"))
     write_API_signature(target)
     write_similarity(target)
