@@ -172,7 +172,7 @@ if __name__ == "__main__":
     """
     Database Settings
     """
-    config_name = "demo.conf"
+    config_name = f"demo_{target}.conf"
     freefuzz_cfg = configparser.ConfigParser()
     freefuzz_cfg.read(f"./config/{config_name}")
 
