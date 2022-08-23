@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b5e59c1307544869b9f9fe0c7992f9d0","collectionName":"tf.compat.v1.math.special.fresnel_sin","type":"collection"}

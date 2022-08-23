@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d5655c29b374402b80ff430162daa54f","collectionName":"tf.metrics.MeanTensor","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1d15d797411b43b9891455a4814db5c6","collectionName":"tf.metrics.MeanTensor","type":"collection"}

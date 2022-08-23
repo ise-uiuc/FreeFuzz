@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"52d11498382f4c24b634410dcaa67c02","collectionName":"tf.data.experimental.take_while","type":"collection"}

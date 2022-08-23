@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a7e86299e32d48c7b5c31f13d60bbc55","collectionName":"tf.losses.log_cosh","type":"collection"}

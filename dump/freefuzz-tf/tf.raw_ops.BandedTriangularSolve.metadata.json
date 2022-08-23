@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1ef650d7505841f7840b608582c03ab3","collectionName":"tf.raw_ops.BandedTriangularSolve","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7a1b406a14854a3bbcb2c7094afc9437","collectionName":"tf.raw_ops.StaticRegexReplace","type":"collection"}

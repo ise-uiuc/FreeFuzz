@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"568a5470ea1449ae99f6e71baa747b55","collectionName":"tf.compat.v1.keras.layers.LocallyConnected1D","type":"collection"}

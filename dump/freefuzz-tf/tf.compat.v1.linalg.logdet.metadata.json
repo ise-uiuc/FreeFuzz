@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"29f3080475094dcba9f2e26b92a7e599","collectionName":"tf.compat.v1.linalg.logdet","type":"collection"}

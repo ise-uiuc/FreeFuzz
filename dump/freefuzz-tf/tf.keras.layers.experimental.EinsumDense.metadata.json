@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"faf5585641014413bf4448996a194b0b","collectionName":"tf.keras.layers.experimental.EinsumDense","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"fdd1a373947246fabc930cc3b5334767","collectionName":"tf.keras.layers.experimental.EinsumDense","type":"collection"}

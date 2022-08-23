@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1f16c4958e6f46f8b76f87b1778d5672","collectionName":"tf.raw_ops.AdjustContrastv2","type":"collection"}

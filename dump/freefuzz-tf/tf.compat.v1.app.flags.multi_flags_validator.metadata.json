@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e0a955aa17d64d0f9f6ec6832e3918b8","collectionName":"tf.compat.v1.app.flags.multi_flags_validator","type":"collection"}

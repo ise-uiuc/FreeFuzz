@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"4a5768f972e14b7f804712ce1c432509","collectionName":"tf.compat.v1.keras.layers.GRUCell","type":"collection"}

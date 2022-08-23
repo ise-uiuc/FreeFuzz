@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"24927aafe6284380bab39f05595c2686","collectionName":"tf.compat.v1.autograph.experimental.do_not_convert","type":"collection"}

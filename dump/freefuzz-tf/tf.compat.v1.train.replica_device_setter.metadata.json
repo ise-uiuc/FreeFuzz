@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"613c91e2c2014d7794397fd2de56b255","collectionName":"tf.compat.v1.train.replica_device_setter","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b85c9e126b0a4cdc8d23a75d3da41bc7","collectionName":"tf.compat.v1.ragged.row_splits_to_segment_ids","type":"collection"}

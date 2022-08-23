@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"c2226de4d906478893e3d49e79efe0a4","collectionName":"tf.keras.applications.NASNetMobile","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"03dd6a4683554c3aa9a735ca958f021d","collectionName":"tf.keras.applications.NASNetMobile","type":"collection"}

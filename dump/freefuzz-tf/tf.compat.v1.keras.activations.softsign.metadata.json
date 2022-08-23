@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7ca444cc230a49cfa53301c4c192a93c","collectionName":"tf.compat.v1.keras.activations.softsign","type":"collection"}

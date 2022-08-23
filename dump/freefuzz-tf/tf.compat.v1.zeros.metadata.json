@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a084dd0a531440e1a44e04f2b7587bb4","collectionName":"tf.compat.v1.zeros","type":"collection"}

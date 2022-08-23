@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d631ca9589654254993290dd7a09abf6","collectionName":"tf.compat.v1.keras.layers.Reshape","type":"collection"}

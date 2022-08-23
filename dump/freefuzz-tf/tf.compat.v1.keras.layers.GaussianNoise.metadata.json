@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"64e1edf7c02349159d4c097b82e9c304","collectionName":"tf.compat.v1.keras.layers.GaussianNoise","type":"collection"}

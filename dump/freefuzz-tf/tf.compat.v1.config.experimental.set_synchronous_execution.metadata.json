@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7cab09794fb64e3187fdf05cf622dd42","collectionName":"tf.compat.v1.config.experimental.set_synchronous_execution","type":"collection"}

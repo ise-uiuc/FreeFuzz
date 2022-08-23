@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8b74ceba3b144a3db45e7c74c83db9e9","collectionName":"tf.losses.CategoricalCrossentropy","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b52f66d9d9bd4e7296bd6e6112036132","collectionName":"tf.losses.CategoricalCrossentropy","type":"collection"}

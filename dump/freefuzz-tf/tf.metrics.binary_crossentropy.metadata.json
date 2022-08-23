@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d61e865e33b944a79a7c182b08eadf0e","collectionName":"tf.metrics.binary_crossentropy","type":"collection"}

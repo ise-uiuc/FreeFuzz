@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e6b855bfdbd349c1b9ad9acbe5bdd71f","collectionName":"tf.compat.v1.test.is_gpu_available","type":"collection"}

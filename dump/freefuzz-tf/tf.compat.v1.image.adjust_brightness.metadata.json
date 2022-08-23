@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a70cee081c0a4e658c307579b8baea10","collectionName":"tf.compat.v1.image.adjust_brightness","type":"collection"}

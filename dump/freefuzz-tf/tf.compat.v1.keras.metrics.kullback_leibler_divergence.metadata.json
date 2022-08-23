@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"aea709f92b214fd9bd78e44ae078805c","collectionName":"tf.compat.v1.keras.metrics.kullback_leibler_divergence","type":"collection"}

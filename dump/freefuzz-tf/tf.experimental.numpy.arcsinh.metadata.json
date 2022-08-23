@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"854822a965b84b97b561283e3e1faa46","collectionName":"tf.experimental.numpy.arcsinh","type":"collection"}

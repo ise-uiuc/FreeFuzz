@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5acd67662af84f6cae930e4d6d8b30a7","collectionName":"tf.raw_ops.Mean","type":"collection"}

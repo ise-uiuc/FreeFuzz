@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"da4b7f05506a414ea6d2ce901b5cab6b","collectionName":"tf.debugging.assert_less_equal","type":"collection"}

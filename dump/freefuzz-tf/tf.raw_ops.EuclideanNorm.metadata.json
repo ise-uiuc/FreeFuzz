@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"24fd6166f1b9483c92d3dfd0522b1850","collectionName":"tf.raw_ops.EuclideanNorm","type":"collection"}

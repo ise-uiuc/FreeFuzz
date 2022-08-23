@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"423822274d17430099c066fde9d8b7ec","collectionName":"tf.compat.v1.random.experimental.stateless_split","type":"collection"}

@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"616b586a073c4e4c885a31444d1a1c74","collectionName":"tf.keras.metrics.BinaryCrossentropy","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8d81d09d32ef4a4bbea7b4629a4aaa2f","collectionName":"tf.keras.metrics.BinaryCrossentropy","type":"collection"}

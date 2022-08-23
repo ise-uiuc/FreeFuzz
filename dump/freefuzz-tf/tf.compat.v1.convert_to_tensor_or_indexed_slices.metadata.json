@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"26ef1c67d832480195c568526e923495","collectionName":"tf.compat.v1.convert_to_tensor_or_indexed_slices","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0c2d6cf7d781442caf219b800bfc4320","collectionName":"tf.random.experimental.create_rng_state","type":"collection"}

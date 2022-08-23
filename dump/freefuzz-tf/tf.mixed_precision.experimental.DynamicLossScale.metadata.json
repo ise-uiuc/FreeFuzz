@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1259740bc5044f3ea1b8a1126356d335","collectionName":"tf.mixed_precision.experimental.DynamicLossScale","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"20489afa15c2401e98560f666420bd3b","collectionName":"tf.mixed_precision.experimental.DynamicLossScale","type":"collection"}

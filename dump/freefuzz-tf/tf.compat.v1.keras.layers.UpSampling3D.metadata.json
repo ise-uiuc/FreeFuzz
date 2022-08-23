@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b876cdf1afc7492fa28fa1323d44e516","collectionName":"tf.compat.v1.keras.layers.UpSampling3D","type":"collection"}

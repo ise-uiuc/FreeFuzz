@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"bb8645efd5eb45cd962feabaa42b8850","collectionName":"tf.compat.v1.keras.metrics.mean_absolute_error","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"55e646d6ee924cf19595843d4c9ba989","collectionName":"tf.compat.v1.random.experimental.stateless_fold_in","type":"collection"}

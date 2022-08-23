@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"c4e2d58ff4b342e691b7c4f31dee1def","collectionName":"tf.raw_ops.LeakyReluGrad","type":"collection"}

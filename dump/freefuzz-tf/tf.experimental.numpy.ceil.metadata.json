@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"57fc6cf1e4e44037b264da1a33b932b4","collectionName":"tf.experimental.numpy.ceil","type":"collection"}

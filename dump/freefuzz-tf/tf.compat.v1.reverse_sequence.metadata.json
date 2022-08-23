@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5068b16fe11149e1942ded4019d2ac0c","collectionName":"tf.compat.v1.reverse_sequence","type":"collection"}

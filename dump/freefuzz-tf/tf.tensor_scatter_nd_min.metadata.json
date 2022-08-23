@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8761ef4838bf44769be9c33b784a7d06","collectionName":"tf.tensor_scatter_nd_min","type":"collection"}

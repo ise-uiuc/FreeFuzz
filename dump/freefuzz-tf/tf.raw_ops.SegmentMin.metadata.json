@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"49b31565e0c142f1a1e03b06e6e6323f","collectionName":"tf.raw_ops.SegmentMin","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0f0f8c0b2d1e43bf9d38094cb99dc6bf","collectionName":"tf.raw_ops.ScatterNd","type":"collection"}

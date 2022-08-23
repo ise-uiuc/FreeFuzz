@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"98b9c9d2fbc64870981daed60f880bc4","collectionName":"tf.compat.v1.keras.layers.concatenate","type":"collection"}

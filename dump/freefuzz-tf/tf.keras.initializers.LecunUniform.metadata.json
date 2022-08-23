@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"81af828f804b440da381707f3f670c83","collectionName":"tf.keras.initializers.LecunUniform","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"6a57cdcacecb40d798a8bed6bcbad916","collectionName":"tf.keras.initializers.LecunUniform","type":"collection"}

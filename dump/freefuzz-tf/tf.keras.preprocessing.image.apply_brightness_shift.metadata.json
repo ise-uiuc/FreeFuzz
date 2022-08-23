@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"379886be0fce465196b31fa8a88e2316","collectionName":"tf.keras.preprocessing.image.apply_brightness_shift","type":"collection"}

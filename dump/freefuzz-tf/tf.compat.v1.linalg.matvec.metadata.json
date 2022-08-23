@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f8fce71be7254aa0ae55d9626378bed1","collectionName":"tf.compat.v1.linalg.matvec","type":"collection"}

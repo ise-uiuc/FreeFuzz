@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3c2f07a71e994153ac2655bf6207fa10","collectionName":"tf.data.experimental.enumerate_dataset","type":"collection"}

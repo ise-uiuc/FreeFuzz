@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f9776c6038fe41149d724d8539085bcc","collectionName":"tf.compat.v1.math.special.fresnel_cos","type":"collection"}

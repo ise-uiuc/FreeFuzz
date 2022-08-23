@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b64e470b7d174aa8a651a92ee7ff9a48","collectionName":"tf.keras.metrics.CosineSimilarity","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"4b314d25de2640eeb700c6f373b90a3e","collectionName":"tf.keras.metrics.CosineSimilarity","type":"collection"}

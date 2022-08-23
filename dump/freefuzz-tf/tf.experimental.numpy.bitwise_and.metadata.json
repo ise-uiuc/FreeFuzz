@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"533e78d68fa443eaa78bae99f23b17ab","collectionName":"tf.experimental.numpy.bitwise_and","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"48dd59c17be449eda10a226cf6c625c6","collectionName":"tf.compat.v1.initializers.glorot_normal","type":"collection"}

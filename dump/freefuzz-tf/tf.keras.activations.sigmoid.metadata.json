@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"187107e0f6da469c9d0b5be6b8ff625b","collectionName":"tf.keras.activations.sigmoid","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2d8464a0437a46e6a60084b8a11f6f51","collectionName":"tf.keras.activations.sigmoid","type":"collection"}

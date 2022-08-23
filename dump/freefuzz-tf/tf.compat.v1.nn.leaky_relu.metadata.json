@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5caa62212f6b492394e642efd01fcfde","collectionName":"tf.compat.v1.nn.leaky_relu","type":"collection"}

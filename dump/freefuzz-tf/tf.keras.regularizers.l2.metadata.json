@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"109fc7ea8cd04b049bf25103ed493a13","collectionName":"tf.keras.regularizers.l2","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8e23790f289d4c98a1af1ae0cd796e6d","collectionName":"tf.keras.regularizers.l2","type":"collection"}

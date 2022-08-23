@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9cc56379a4a34a51a05e8ce0fdc2b720","collectionName":"tf.compat.v1.math.cumsum","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5eda4a0d9bfe4d649bed80a1b8f2a1ab","collectionName":"tf.compat.v1.keras.layers.experimental.preprocessing.Normalization","type":"collection"}

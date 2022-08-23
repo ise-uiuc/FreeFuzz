@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f7b96ec5353e41a6a1e27ab778411eec","collectionName":"tf.compat.v1.keras.backend.set_epsilon","type":"collection"}

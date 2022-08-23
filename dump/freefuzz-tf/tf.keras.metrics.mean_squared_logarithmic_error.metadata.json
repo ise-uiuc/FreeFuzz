@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"769d9ce046574248b72994e434a29e50","collectionName":"tf.keras.metrics.mean_squared_logarithmic_error","type":"collection"}

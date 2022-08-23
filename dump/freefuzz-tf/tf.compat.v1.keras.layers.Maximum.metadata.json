@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3c72d44ea9714b5e972f398e552821d2","collectionName":"tf.compat.v1.keras.layers.Maximum","type":"collection"}

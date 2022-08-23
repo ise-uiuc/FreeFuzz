@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"37afda3f0efd46a385a218eec2b47c00","collectionName":"tf.metrics.top_k_categorical_accuracy","type":"collection"}

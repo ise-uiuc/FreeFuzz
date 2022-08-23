@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d7d1df7f37e3438c829845da25573a92","collectionName":"tf.keras.losses.MeanSquaredError","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5d12515b84744bf59054bc931fb5968f","collectionName":"tf.keras.losses.MeanSquaredError","type":"collection"}

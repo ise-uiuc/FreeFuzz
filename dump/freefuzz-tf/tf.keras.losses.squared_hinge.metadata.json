@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1ec289723c6541998c9d9e7a61c26f88","collectionName":"tf.keras.losses.squared_hinge","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"541a22bfe04d478eba735d5ea9714652","collectionName":"tf.keras.losses.squared_hinge","type":"collection"}

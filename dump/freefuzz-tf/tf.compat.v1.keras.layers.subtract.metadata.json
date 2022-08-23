@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b5531b31ab7f4f4d9199a66cacc1e63d","collectionName":"tf.compat.v1.keras.layers.subtract","type":"collection"}

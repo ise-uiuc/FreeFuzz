@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7be23189523746e0885545d474255d46","collectionName":"tf.keras.metrics.hinge","type":"collection"}

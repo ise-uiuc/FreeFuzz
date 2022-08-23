@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"16232e609250420e9d639e683ba84a0b","collectionName":"tf.raw_ops.SpaceToDepth","type":"collection"}

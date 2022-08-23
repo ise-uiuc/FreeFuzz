@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"10a0c265cc134039bbd60baea9b87ed0","collectionName":"tf.linalg.tensor_diag_part","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1613c14944d0413abe6e42007c6138c9","collectionName":"tf.linalg.tensor_diag_part","type":"collection"}

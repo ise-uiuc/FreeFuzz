@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2e89a17bd1364a71bc517b86cbe1837d","collectionName":"tf.compat.v1.keras.layers.SpatialDropout3D","type":"collection"}

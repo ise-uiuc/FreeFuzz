@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"93df81b0f96b4ab2ac80b29de9dfe6a2","collectionName":"tf.compat.v1.config.list_physical_devices","type":"collection"}

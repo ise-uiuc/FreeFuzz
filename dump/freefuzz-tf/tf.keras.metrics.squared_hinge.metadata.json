@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e45636562e3a48498dfa380830eb821a","collectionName":"tf.keras.metrics.squared_hinge","type":"collection"}
