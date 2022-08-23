@@ -2,6 +2,7 @@ from functools import WRAPPER_UPDATES
 import inspect
 import json
 import random
+from typing import List, Dict
 import numpy as np
 import tensorflow as tf
 from numpy.random import choice, randint
@@ -16,7 +17,6 @@ from classes.database import TFDatabase
 
 from classes.argument import OracleType
 from utils.probability import do_type_mutation, do_select_from_db
-
 
 class TFArgument(Argument):
     _str_values = ["", "1", "sum", "same", "valid", "zeros"]
@@ -64,6 +64,7 @@ class TFArgument(Argument):
                 shape = list(shape)
             else:
                 shape = list(shape)
+        shape = [1 if x is None else x for x in shape]
         return shape
 
     @staticmethod
@@ -77,7 +78,7 @@ class TFArgument(Argument):
             return ArgType.TF_TENSOR
         elif isinstance(x, tf.DType):
             return ArgType.TF_DTYPE
-    
+        
     def mutate_value_random(self) -> None:
         """ Apply random value mutation. """
         if self.type == ArgType.INT:
@@ -87,7 +88,7 @@ class TFArgument(Argument):
         elif self.type == ArgType.FLOAT:
             self.value = self.mutate_float_value(self.value)
         elif self.type == ArgType.BOOL:
-            self.value = choice([True, False])
+            self.value = self.mutate_bool_value(self.value)
         elif self.type == ArgType.TUPLE or self.type == ArgType.LIST:
             for arg in self.value:
                 arg.mutate_value_random()
@@ -126,7 +127,8 @@ class TFArgument(Argument):
         # Change value
         for i in range(len(new_shape)):
             if self.if_mutate_shape_value():
-                new_shape[i] = self.mutate_int_value(new_shape[i], _min=0)
+                new_shape[i] = self.mutate_int_value(new_shape[i], minv=0)
+               
         return new_shape
 
     def generate_value_random(self) -> None:
@@ -138,7 +140,7 @@ class TFArgument(Argument):
         elif self.type == ArgType.FLOAT:
             self.value = self.mutate_float_value(0.)
         elif self.type == ArgType.BOOL:
-            self.value = choice([True, False])
+            self.value = self.mutate_bool_value(True)
         elif self.type == ArgType.TUPLE or self.type == ArgType.LIST:
             self.value = [TFArgument(1, ArgType.INT), TFArgument(1, ArgType.INT)]
         elif self.type in self._tensor_arg_dtypes:
@@ -180,6 +182,8 @@ class TFArgument(Argument):
             elif self.type == ArgType.BOOL:
                 self.value = choice([True, False])
         elif self.type in [ArgType.LIST, ArgType.TUPLE]:
+            if random.random() < 0.01: 
+                self.value = [] # with a probability return an empty list
             for arg in self.value:
                 arg.mutate_type()
         elif self.type == ArgType.TF_TENSOR:
@@ -211,11 +215,35 @@ class TFArgument(Argument):
                     pass
         elif self.type == ArgType.TF_DTYPE:
             self.value = choice(TFArgument._dtypes)
+        return True
+
+    @staticmethod
+    def if_mutate_int_random():
+        return random.random() < 0.2
 
     @staticmethod
     def if_mutate_str_random():
+        return random.random() < 0.1
+
+    @staticmethod
+    def if_mutate_float_random():
         return random.random() < 0.2
 
+    
+    def mutate_bool_value(self, value) -> bool:
+        return choice([True, False])
+
+    def mutate_int_value(self, value, minv=None, maxv=None) -> int:
+        if TFArgument.if_mutate_int_random():
+            value = choice(self._int_values)
+        else:
+            value += randint(-2, 2)
+        if minv is not None:
+            value = max(minv, value)
+        if maxv is not None:
+            value = min(maxv, value)
+        return value
+    
     def mutate_str_value(self, value) -> str:
         if TFArgument.if_mutate_str_random():
             return choice(self._str_values)
@@ -273,10 +301,13 @@ class TFArgument(Argument):
                    "%s, minval=0, maxval=2, dtype=tf.int32), dtype=tf.bool)\n" % (var_tensor_name, shape)
         elif dtype == tf.string:
             code += "%s = tf.convert_to_tensor(np.ones(%s, dtype=str))\n" % (var_tensor_name, shape)
+        elif dtype in [tf.int32, tf.int64]:
+            code += "%s = tf.random.uniform(%s, minval=%d, maxval=%d, dtype=tf.%s)\n" \
+                % (var_tensor_name, shape, self.minv, self.maxv + 1, dtype.name)
         else:
             code += "%s = tf.saturate_cast(" \
-                   "tf.random.uniform(%s, minval=%d, maxval=%d, dtype=tf.int64), " \
-                   "dtype=tf.%s)\n" % (var_tensor_name, shape, self.minv, self.maxv + 1, dtype.name)
+                "tf.random.uniform(%s, minval=%d, maxval=%d, dtype=tf.int64), " \
+                "dtype=tf.%s)\n" % (var_tensor_name, shape, self.minv, self.maxv + 1, dtype.name)
         code += f"{var_name} = tf.identity({var_tensor_name})\n"
         return code
 
@@ -344,15 +375,14 @@ class TFArgument(Argument):
 
     @staticmethod
     def generate_arg_from_signature(signature):
-
+        if isinstance(signature, bool):
+            return TFArgument(signature, ArgType.BOOL)
         if isinstance(signature, int):
             return TFArgument(signature, ArgType.INT)
         if isinstance(signature, float):
             return TFArgument(signature, ArgType.FLOAT)
         if isinstance(signature, str):
             return TFArgument(signature, ArgType.STR)
-        if isinstance(signature, bool):
-            return TFArgument(signature, ArgType.BOOL)
         if isinstance(signature, list):
             value = []
             for elem in signature:
@@ -364,12 +394,18 @@ class TFArgument(Argument):
                 value.append(TFArgument.generate_arg_from_signature(elem))
             return TFArgument(value, ArgType.TUPLE)
 
-        if (not isinstance(signature, dict)) or ('Label' not in signature):
+        if (not isinstance(signature, dict)):
             return TFArgument(None, ArgType.NULL)
 
-        label = signature["Label"]
+        if "type" not in signature and "Label" not in signature:
+            return TFArgument(None, ArgType.NULL)
+
+        label = signature["type"] if "type" in signature else signature["Label"]
 
         if label == "tf_object":
+            if "class_name" not in signature:
+                return TFArgument(None, ArgType.TF_OBJECT)
+
             if signature["class_name"] == "tensorflow.python.keras.engine.keras_tensor.KerasTensor" or \
                 signature["class_name"] == "tensorflow.python.ops.variables.RefVariable":
                 dtype = signature["dtype"]
@@ -410,20 +446,26 @@ class TFArgument(Argument):
                 return TFArgument(list_value, ArgType.LIST)
 
         if label == "tuple":
-            value = json.loads(signature['value'])
-            tuple_value = []
-            for elem in value:
-                tuple_value.append(TFArgument.generate_arg_from_signature(elem))
-            return TFArgument(tuple_value, ArgType.TUPLE)
-        if label == "list":
             try:
                 value = json.loads(signature['value'])
+                tuple_value = []
+                for elem in value:
+                    tuple_value.append(TFArgument.generate_arg_from_signature(elem))
+                return TFArgument(tuple_value, ArgType.TUPLE)
             except:
-                value = signature['value']
-            list_value = []
-            for elem in value:
-                list_value.append(TFArgument.generate_arg_from_signature(elem))
-            return TFArgument(list_value, ArgType.LIST)
+                raise ValueError("Wrong signature " + str(signature))
+        if label == "list":
+            try:
+                try:
+                    value = json.loads(signature['value'])
+                except:
+                    value = signature['value']
+                list_value = []
+                for elem in value:
+                    list_value.append(TFArgument.generate_arg_from_signature(elem))
+                return TFArgument(list_value, ArgType.LIST)
+            except:
+                raise ValueError("Wrong signature " + str(signature))
         if label in ["tensor", "KerasTensor", "variable", "nparray"]:
             if not ('shape' in signature.keys()
                     and 'dtype' in signature.keys()):
@@ -469,7 +511,7 @@ class TFAPI(API):
                     do_value_mutation = False
             if enable_value and do_value_mutation:
                 arg.mutate_value()
-             
+
     def to_code_oracle(self,
                 prefix="arg", oracle=OracleType.CRASH) -> str:
         
@@ -503,6 +545,8 @@ class TFAPI(API):
                     if isinstance(s, list):
                         signatures = s
             args = []
+            if signatures == None:
+                return args
             for signature in signatures:
                 x = TFArgument.generate_arg_from_signature(signature)
                 args.append(x)
@@ -615,7 +659,7 @@ class TFAPI(API):
         return res_code
 
     def _to_invocation_code(self, arg_code, res_code, use_try=False, err_name="", 
-        wrap_device=False, device_name="", time_it=False, time_var="") -> str:
+        wrap_device=False, device_name="", time_it=False, time_var="", **kwargs) -> str:
         if time_it:
             res_code = res_code + self.wrap_time(res_code, time_var)
         code = arg_code + res_code
