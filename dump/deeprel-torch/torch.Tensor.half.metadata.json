@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"2b9a3d1d75b34b2ca5fe12b635f66896","collectionName":"torch.Tensor.half","type":"collection"}

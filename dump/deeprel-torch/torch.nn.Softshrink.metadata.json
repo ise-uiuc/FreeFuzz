@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f59a9807656c415198127ee6e3d7227b","collectionName":"torch.nn.Softshrink","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"c748b116c5a1458b9ed990412ba8c808","collectionName":"torch.nn.utils.clip_grad_value_","type":"collection"}

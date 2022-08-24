@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"dbd6a0d95aba4d45a37c0c24ec4310ee","collectionName":"torch.Tensor.erfc_","type":"collection"}

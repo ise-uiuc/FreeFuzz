@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"c08a53a1091a4fdb81982fa6e68add5c","collectionName":"torch.matrix_power","type":"collection"}

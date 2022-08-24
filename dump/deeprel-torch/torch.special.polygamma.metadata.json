@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"704afbc4aa594048b51ef2f48bcc5237","collectionName":"torch.special.polygamma","type":"collection"}

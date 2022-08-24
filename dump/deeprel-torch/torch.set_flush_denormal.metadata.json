@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f0ffa7f654e34ce495793ba6e5b5465e","collectionName":"torch.set_flush_denormal","type":"collection"}

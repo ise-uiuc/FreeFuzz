@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"533b7ba2ca09414884f2e154441b568f","collectionName":"torch.nn.functional.nll_loss","type":"collection"}

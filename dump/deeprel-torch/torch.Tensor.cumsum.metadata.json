@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f8b31495a3904039a4d1c83390b06178","collectionName":"torch.Tensor.cumsum","type":"collection"}

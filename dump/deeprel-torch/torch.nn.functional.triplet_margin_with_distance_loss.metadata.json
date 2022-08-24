@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a0be53261d7f44928f066d6bd1e80041","collectionName":"torch.nn.functional.triplet_margin_with_distance_loss","type":"collection"}

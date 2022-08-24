@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"db9a3204b7bc43a3b4ad1925e3e4e1a4","collectionName":"torch.nn.functional.binary_cross_entropy_with_logits","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"4276c2c47ed54aa8818e6cbd3573ce30","collectionName":"torch.gradient","type":"collection"}

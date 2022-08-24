@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"64b339975a17467e95d8e1e6ce927d69","collectionName":"torch.nn.functional.ctc_loss","type":"collection"}

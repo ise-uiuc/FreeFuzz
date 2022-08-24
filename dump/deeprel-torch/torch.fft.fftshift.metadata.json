@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"fbdb086249cf423581c2e97ccee76508","collectionName":"torch.fft.fftshift","type":"collection"}

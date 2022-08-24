@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b79df8f91045463a80b608a2f5d40aea","collectionName":"torch.Tensor.swapaxes","type":"collection"}

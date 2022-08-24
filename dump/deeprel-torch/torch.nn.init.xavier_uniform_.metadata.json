@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"df64a9dc47bc499781e05c53086b446f","collectionName":"torch.nn.init.xavier_uniform_","type":"collection"}

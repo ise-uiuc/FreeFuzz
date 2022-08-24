@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9ec2dcafeb61440a81fa36722a713fef","collectionName":"torch.nn.utils.rnn.pad_sequence","type":"collection"}

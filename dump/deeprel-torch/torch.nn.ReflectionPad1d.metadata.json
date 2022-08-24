@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"f6cece0c71374597b3869d2a62c60d49","collectionName":"torch.nn.ReflectionPad1d","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"143255125ba04cd8aa781de7c3bfa081","collectionName":"torch.nn.functional.margin_ranking_loss","type":"collection"}
