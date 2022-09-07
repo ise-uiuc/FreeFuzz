@@ -10,7 +10,7 @@ from classes.tf_api import TFAPI, TFArgument
 from classes.library import Library
 from classes.database import TFDatabase
 from constants.enum import OracleType
-from constants.keys import ERR_CPU_KEY, ERR_GPU_KEY, ERR_HIGH_KEY, ERR_LOW_KEY, RES_CPU_KEY, RES_GPU_KEY, TIME_HIGH_KEY, TIME_LOW_KEY
+from constants.keys import ERR_CPU_KEY, ERR_GPU_KEY, ERR_HIGH_KEY, ERR_LOW_KEY, ERROR_KEY, RES_CPU_KEY, RES_GPU_KEY, TIME_HIGH_KEY, TIME_LOW_KEY
 
 class TFLibrary(Library):
     def __init__(self, output_dir, diff_bound=1e-5, time_bound=10, time_thresold=1e-3) -> None:
@@ -27,13 +27,9 @@ class TFLibrary(Library):
 
             with open(join(self.directory, "temp.py"), "w") as f:
                 f.write(code)
-            results, error, MARK_DONE_FLAG = self.run_code(code)
-            if not MARK_DONE_FLAG:
-                self.write_to_dir(join(self.output[oracle], "potential-bug"), api.api, code)
-            elif error == None:
+            results, error = self.run_code(code)
+            if error == None:
                 self.write_to_dir(join(self.output[oracle], "success"), api.api, code)
-            # elif "INTERNAL ASSERT" in error:
-            #     self.write_to_dir(join(self.output[oracle], "potential-bug"), api.api, code)
             else:
                 self.write_to_dir(join(self.output[oracle], "fail"), api.api, code)
         elif oracle == OracleType.CUDA:
@@ -44,7 +40,7 @@ class TFLibrary(Library):
             with open(join(self.directory, "temp.py"), "w") as f:
                 f.write(write_code)
 
-            results, error, MARK_DONE_FLAG = self.run_code(code)
+            results, error = self.run_code(code)
             err_cpu = results[ERR_CPU_KEY]
             err_gpu = results[ERR_GPU_KEY]
             write_dir = ""
@@ -76,7 +72,7 @@ class TFLibrary(Library):
             with open(join(self.directory, "temp.py"), "w") as f:
                 f.write(write_code)
 
-            results, error, MARK_DONE_FLAG = self.run_code(code)
+            results, error = self.run_code(code)
             err_high = results[ERR_HIGH_KEY]
             err_low = results[ERR_LOW_KEY]
             write_dir = ""
@@ -122,14 +118,10 @@ class TFLibrary(Library):
         results[ERR_GPU_KEY] = None
         results[ERR_HIGH_KEY] = None
         results[ERR_LOW_KEY] = None
-        error = None
-        MARK_DONE_FLAG=False
-        try:
-            exec(code)
-            MARK_DONE_FLAG = True
-        except Exception as e:
-            error = str(e)
-        return results, error, MARK_DONE_FLAG
+        
+        exec(code)
+        error = results[ERROR_KEY] if ERROR_KEY in results else None
+        return results, error
     
     @staticmethod
     def get_type(x):
