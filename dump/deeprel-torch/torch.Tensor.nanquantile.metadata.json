@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"17a6d8e4d1f54bf9aee7578d2d9fe5eb","collectionName":"torch.Tensor.nanquantile","type":"collection"}

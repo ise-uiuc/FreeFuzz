@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"d5a2e5634f2f4ef2bcbf54b9ecb0bbe4","collectionName":"torch.nn.functional.cosine_similarity","type":"collection"}

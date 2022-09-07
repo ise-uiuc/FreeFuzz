@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"bfed4470d93e4c0299aacda81011082d","collectionName":"torch.nn.ConvTranspose1d","type":"collection"}

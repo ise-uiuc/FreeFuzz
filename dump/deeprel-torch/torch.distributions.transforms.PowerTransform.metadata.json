@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"1fa6c922bb3542c2b1be4a73a10e8af4","collectionName":"torch.distributions.transforms.PowerTransform","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"ad29ad4badb14e358cf05bae30508ae0","collectionName":"torch.distributions.transforms.CorrCholeskyTransform","type":"collection"}

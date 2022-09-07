@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"73bc06af89a04d7f8ef1bccbc8c4b3b5","collectionName":"torch.meshgrid","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"16d028c448bf43b9a3684fd54481f243","collectionName":"torch.nn.FractionalMaxPool2d","type":"collection"}

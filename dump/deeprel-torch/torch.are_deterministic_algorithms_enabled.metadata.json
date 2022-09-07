@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"506519eb87e64e9e9e195d299631f4eb","collectionName":"torch.are_deterministic_algorithms_enabled","type":"collection"}

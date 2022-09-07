@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"04e738e1190d47d389208772512fb922","collectionName":"torch.Tensor.nanmedian","type":"collection"}

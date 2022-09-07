@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"7262917bfd424963a9ab3dd9ed1a5530","collectionName":"torch.Tensor.rad2deg","type":"collection"}

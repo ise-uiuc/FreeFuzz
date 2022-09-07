@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"0efa7ff888304035a9e297574f634abf","collectionName":"torch.Tensor.lgamma_","type":"collection"}

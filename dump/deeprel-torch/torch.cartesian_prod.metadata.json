@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"38505abea9a7462cb35edb16ed650925","collectionName":"torch.cartesian_prod","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"96818e8a2405400587001e697fae5a6c","collectionName":"torch.Tensor.squeeze","type":"collection"}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9ed4657e1db54893b31f0d9b97b55abb","collectionName":"torch.Tensor.true_divide_","type":"collection"}

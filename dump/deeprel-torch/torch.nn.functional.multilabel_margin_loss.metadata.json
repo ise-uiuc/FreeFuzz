@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b4b990f534294f5cb95e51cce7b2b056","collectionName":"torch.nn.functional.multilabel_margin_loss","type":"collection"}
