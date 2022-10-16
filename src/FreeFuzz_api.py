@@ -2,6 +2,7 @@ import sys
 from constants.enum import OracleType
 import configparser
 from os.path import join
+from utils.converter import str_to_bool
 
 
 if __name__ == "__main__":
@@ -19,9 +20,9 @@ if __name__ == "__main__":
 
     # oracle configuration
     oracle_cfg = freefuzz_cfg["oracle"]
-    crash_oracle = bool(oracle_cfg["enable_crash"])
-    cuda_oracle = bool(oracle_cfg["enable_cuda"])
-    precision_oracle = bool(oracle_cfg["enable_precision"])
+    crash_oracle = str_to_bool(oracle_cfg["enable_crash"])
+    cuda_oracle = str_to_bool(oracle_cfg["enable_cuda"])
+    precision_oracle = str_to_bool(oracle_cfg["enable_precision"])
 
     diff_bound = float(oracle_cfg["float_difference_bound"])
     time_bound = float(oracle_cfg["max_time_bound"])
@@ -34,9 +35,9 @@ if __name__ == "__main__":
 
     # mutation configuration
     mutation_cfg = freefuzz_cfg["mutation"]
-    enable_value = bool(mutation_cfg["enable_value_mutation"])
-    enable_type = bool(mutation_cfg["enable_type_mutation"])
-    enable_db = bool(mutation_cfg["enable_db_mutation"])
+    enable_value = str_to_bool(mutation_cfg["enable_value_mutation"])
+    enable_type = str_to_bool(mutation_cfg["enable_type_mutation"])
+    enable_db = str_to_bool(mutation_cfg["enable_db_mutation"])
     each_api_run_times = int(mutation_cfg["each_api_run_times"])
 
     if library.lower() in ["pytorch", "torch"]:
