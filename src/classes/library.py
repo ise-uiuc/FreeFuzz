@@ -27,11 +27,13 @@ class Library:
 
     @staticmethod
     def write_to_dir(dir, api_name, code):
-        filenames = os.listdir(dir)
-        index = 1
-        new_name = f"{api_name}-{index}.py"
-        while new_name in filenames:
-            index += 1
-            new_name = f"{api_name}-{index}.py"
-        with open(join(dir, new_name), "w") as f:
+        api_dir = join(dir, api_name)
+        if not os.path.exists(api_dir):
+            os.makedirs(api_dir)
+        filenames = os.listdir(api_dir)
+        max_name = 0
+        for name in filenames:
+            max_name = max(max_name, int(name.replace(".py", "")))
+        new_name = str(max_name + 1)
+        with open(join(api_dir, new_name + ".py"), "w") as f:
             f.write(code)
